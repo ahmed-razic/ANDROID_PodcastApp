@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/brown">
+
+    <TextView
+        android:id="@+id/playing"
+        style="@style/HeaderStyle"
+        android:background="@color/green"
+        android:text="Podcast Playing" />
+
+    <TextView
+        android:id="@+id/library"
+        style="@style/HeaderStyle"
+        android:background="@color/magenta"
+        android:text="Podcast Library" />
+
+    <TextView
+        android:id="@+id/details"
+        style="@style/HeaderStyle"
+        android:background="@color/yellow"
+        android:text="Podcast Details" />
+
+    <TextView
+        android:id="@+id/payment"
+        style="@style/HeaderStyle"
+        android:background="@color/pink"
+        android:text="Podcast Payment" />
+
+</LinearLayout>
